@@ -1,7 +1,5 @@
 # praktikum_algoritma_Search-ch-Uninformed_Sear
-2306143
-
-```markdown
+2306139
 # Implementasi Algoritma Pencarian dalam Python
 
 Repository ini berisi berbagai implementasi algoritma pencarian dalam bahasa Python, mencakup:
@@ -25,11 +23,4 @@ Clone repository ini ke Google Colab atau komputer lokal:
 ```bash
 git clone https://github.com/username/repository-name.git
 cd repository-name
-```
 
-Jalankan skrip Python yang diinginkan:
-```bash
-python dfs.py
-python bfs.py
-python ucs.py
-```
