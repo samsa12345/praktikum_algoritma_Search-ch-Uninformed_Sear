@@ -1,27 +1,19 @@
 # praktikum_algoritma_Search-ch-Uninformed_Sear
 2306143
-Berikut adalah template README yang dapat Anda gunakan untuk repository GitHub Anda, berdasarkan deskripsi yang Anda berikan:
 
 ```markdown
 # Implementasi Algoritma Pencarian dalam Python
 
-Repository ini berisi berbagai implementasi algoritma pencarian dalam bahasa Python, mencakup berbagai teknik pencarian yang digunakan untuk menyelesaikan masalah pencarian dalam graf.
+Repository ini berisi berbagai implementasi algoritma pencarian dalam bahasa Python, mencakup:
 
-## 🔍 Pencarian Tanpa Informasi (Uninformed Search)
+## 🔍 Pencarian Tanpa Informasi (Uninformed Search):
+- **DFS (Depth First Search)**: Menelusuri graph dengan mendalami satu cabang terlebih dahulu sebelum kembali ke node sebelumnya.
+- **BFS (Breadth First Search)**: Menelusuri graph secara melebar dengan mengunjungi semua node pada satu tingkat sebelum berpindah ke tingkat berikutnya.
+- **UCS (Uniform Cost Search)**: Mencari jalur dengan biaya paling rendah berdasarkan bobot antar node.
 
-### 1. **DFS (Depth First Search)**
-   - Menelusuri graf dengan mendalami satu cabang terlebih dahulu sebelum kembali ke node sebelumnya.
-
-### 2. **BFS (Breadth First Search)**
-   - Menelusuri graf secara melebar dengan mengunjungi semua node pada satu tingkat sebelum berpindah ke tingkat berikutnya.
-
-### 3. **UCS (Uniform Cost Search)**
-   - Mencari jalur dengan biaya paling rendah berdasarkan bobot antar node.
-
-Algoritma ini digunakan untuk menemukan jalur optimal dalam suatu graf menggunakan pendekatan pencarian tanpa informasi tambahan (uninformed). Selain itu, algoritma ini juga dapat dikembangkan lebih lanjut untuk pencarian dengan heuristik (informed search).
+Algoritma ini digunakan untuk menemukan jalur optimal dalam suatu graph menggunakan pendekatan pencarian tanpa informasi tambahan (uninformed) serta dapat dikembangkan lebih lanjut untuk pencarian dengan heuristik (informed search).
 
 ## 📁 Struktur Repository
-
 - `dfs.py` → Implementasi Depth First Search
 - `bfs.py` → Implementasi Breadth First Search
 - `ucs.py` → Implementasi Uniform Cost Search
@@ -29,30 +21,29 @@ Algoritma ini digunakan untuk menemukan jalur optimal dalam suatu graf menggunak
 Setiap file berisi kode algoritma serta contoh penggunaannya yang dapat diuji langsung.
 
 ## 🚀 Menjalankan di Google Colab
+Clone repository ini ke Google Colab atau komputer lokal:
+```bash
+git clone https://github.com/username/repository-name.git
+cd repository-name
+```
 
-Untuk menjalankan algoritma-algoritma ini di Google Colab atau komputer lokal Anda, ikuti langkah-langkah berikut:
+Jalankan skrip Python yang diinginkan:
+```bash
+python dfs.py
+python bfs.py
+python ucs.py
+```
 
-1. **Clone repository ini:**
-   ```bash
-   git clone https://github.com/username/repository-name.git
-   ```
+## 📝 Contoh Penggunaan
+Setiap file Python (`dfs.py`, `bfs.py`, `ucs.py`) sudah disertai dengan contoh penggunaan yang akan membantu Anda memahami cara kerja setiap algoritma.
 
-2. **Masuk ke direktori repository:**
-   ```bash
-   cd repository-name
-   ```
+## 📚 Kontribusi
+Jika Anda tertarik untuk berkontribusi pada pengembangan algoritma atau menambahkan algoritma pencarian lainnya, silakan ajukan pull request! Pastikan untuk membuat isu jika Anda menemukan bug atau memiliki saran untuk peningkatan.
 
-3. **Jalankan skrip Python yang diinginkan:**
-   - Untuk menjalankan DFS:
-     ```bash
-     python dfs.py
-     ```
-   - Untuk menjalankan BFS:
-     ```bash
-     python bfs.py
-     ```
-   - Untuk menjalankan UCS:
-     ```bash
-     python ucs.py
-     ```
+## 📄 Lisensi
+Repository ini dilisensikan di bawah [MIT License](LICENSE).
+```
 
+Pastikan untuk mengganti `username` dan `repository-name` dengan username dan nama repository GitHub Anda sendiri.
+
+Dengan format di atas, font dan gaya teks yang digunakan akan terlihat serupa dengan yang Anda inginkan di GitHub, terutama dalam penggunaan heading dan pengkodean (code block) yang mendukung gaya teks yang lebih jelas dan mudah dibaca.
