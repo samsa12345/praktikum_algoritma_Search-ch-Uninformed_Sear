@@ -1,5 +1,5 @@
 # praktikum_algoritma_Search-ch-Uninformed_Sear
-2306139
+2306139_Samsa Faridah
 # Implementasi Algoritma Pencarian dalam Python
 
 Repository ini berisi berbagai implementasi algoritma pencarian dalam bahasa Python, mencakup:
