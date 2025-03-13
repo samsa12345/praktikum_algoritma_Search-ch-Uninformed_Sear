@@ -33,17 +33,3 @@ python dfs.py
 python bfs.py
 python ucs.py
 ```
-
-## 📝 Contoh Penggunaan
-Setiap file Python (`dfs.py`, `bfs.py`, `ucs.py`) sudah disertai dengan contoh penggunaan yang akan membantu Anda memahami cara kerja setiap algoritma.
-
-## 📚 Kontribusi
-Jika Anda tertarik untuk berkontribusi pada pengembangan algoritma atau menambahkan algoritma pencarian lainnya, silakan ajukan pull request! Pastikan untuk membuat isu jika Anda menemukan bug atau memiliki saran untuk peningkatan.
-
-## 📄 Lisensi
-Repository ini dilisensikan di bawah [MIT License](LICENSE).
-```
-
-Pastikan untuk mengganti `username` dan `repository-name` dengan username dan nama repository GitHub Anda sendiri.
-
-Dengan format di atas, font dan gaya teks yang digunakan akan terlihat serupa dengan yang Anda inginkan di GitHub, terutama dalam penggunaan heading dan pengkodean (code block) yang mendukung gaya teks yang lebih jelas dan mudah dibaca.
